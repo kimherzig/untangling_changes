@@ -1,14 +1,11 @@
 # untangling_changes
 
 ## News
-* 2015-09-21
-Moved repository from https://www.st.cs.uni-saarland.de/softevo/untangling_changes/
+* 2015-09-21: Moved repository from https://www.st.cs.uni-saarland.de/softevo/untangling_changes/
 
-* 2012-11-19
-We moved the data sets to a public radable Git repository: https://hg.st.cs.uni-saarland.de/git/untangling-public-data/. We also fixed some falsely marked obvious blobs. The data sets in the Git repository are up-to-date. Please note that the results of the TechReport are only affected marginally!
+* 2012-11-19: We moved the data sets to a public radable Git repository: https://hg.st.cs.uni-saarland.de/git/untangling-public-data/. We also fixed some falsely marked obvious blobs. The data sets in the Git repository are up-to-date. Please note that the results of the TechReport are only affected marginally!
 
-* 2011-09-29
-The data sets showing the change sets and their classification (tangled or atomic) as presented in the paper are now online.
+* 2011-09-29: The data sets showing the change sets and their classification (tangled or atomic) as presented in the paper are now online.
 
 ## Why untangling changes?
 
@@ -16,14 +13,13 @@ Mining version archives became a popular research field. Most research approache
 
 ## Download
 
-The different data sets are provided as CSV files for five open-source projects: ArgoUML, Google Webtool Kit, Jaxen, JRuby, XStream. The corresponding project repositories were transformed to GIT repositories before analysis. The corresponding GIT repositories can also be downloaded below.
-Except for the git repositories, the data sets are provided in a public readable Git reposiotry: https://hg.st.cs.uni-saarland.de/git/untangling-public-data/. You can either clone the Git repository or browse the files online.
+The different data sets are provided as CSV files for five open-source projects: ArgoUML, Google Webtool Kit, Jaxen, JRuby, XStream. The corresponding project repositories were transformed to GIT repositories before analysis. The corresponding GIT repositories are also be part of this package.The data sets are provided in a public readable Git reposiotry: https://github.com/kimherzig/untangling_changes.git/. You can either clone the Git repository or browse the files online.
 
 Please note that transactions are identified by GIT-hashes and not by SVN ids. We also provide a mapping file between the original SVN ids and GIT hashes for the individual project repositories.
 
 ## GIT repositories
 
-Each repository download is a 7z file. You can unzip it using 7zip. Each zip file contains a directory holding the project name. Each directory contains the GIT repository which can be used, directly. 
+Each repository download tar, xzip file. You can unzip it using 7zip. Each zip file contains a bare, clonable GIT repository. 
 
 ## Atomic fixes
 
@@ -37,8 +33,11 @@ The data sets are contained in the Git repository subdirectory ``obvious_blobs''
 
 ## Papers
 
-[2011] K. Herzig and A. Zeller, "Untangling Changes", under submission, 2011.
-People
+* [2011] K. Herzig and A. Zeller, “The Impact of Tangled Code Changes,” in Proceedings of the 10th working conference on mining software repositories, Piscataway, NJ, USA, 2013, pp. 121-130. 
+* [2012] K. Herzig, “Mining and Untangling Change Genealogies,” PhD Thesis, 2012. 
+* [2015] K. Herzig, S. Just, and A. Zeller, “The impact of tangled code changes on defect prediction models,” Empirical software engineering, pp. 1-34, 2015. 
 
-* Kim Herzig (contact)
-* Andreas Zeller
+## Contact
+
+* Kim Herzig (contact) Http://research.microsoft.com/people/kimh
+* Andreas Zeller http://www.st.cs.uni-saarland.de/zeller
