@@ -1,0 +1,38 @@
+HASH,num partitions,bug references,message
+2a27042b634e5b8416f46b3329be319f0ee24d0d,2,,XSTR-48: Converters for BigInteger and BigDecimal. XSTR-49: IntConverter uses decode so it can deal with hex/octal representations.
+43004aab500f3c8aa6a1d723589b14fb856b3ef9,2,"XSTR-93, XSTR-170","XSTR-93, XSTR-120, XSTR-170: Support for \r newline in strings."
+aa9cc54c06a56137467e8e19ea9cc1bd916b634b,2,XSTR-178,XSTR-179: Support for ObjectInputStream.registerValidation(ObjectInputValidation). XSTR-178: Serialized inner class now maintains reference to outer class.
+fb5010bf7ce0516dc37dbb853e49921743dfd914,2,"XSTR-247, XSTR-246",Fix TimeZone for ISODateFormat (XSTR-247). Support Nanos for ISOSqlTimestamp (sequel XSTR-246). Update joda. Add ISOGregorianCalendar.
+74ed4ebc47ddf93a9278c41910254501313c230d,2,"XSTR-276, XSTR-283",Real nasty show cases for XSTR-276 and XSTR-283.
+dd4da2c6f7b9b14cac8c6ae1776b432f83048487,2,XSTR-244,Added new StatefulWriter as general solution for XSTR-244 and preparation for XSTR-276 and XSTR-283.
+ec922fc1dcc556c5518eee6c90b90c8cb96ded5a,2,"XSTR-276, XSTR-283",Resolve references to implicit collections (XSTR-276 and XSTR-283). Factor out AbstractReference(Un)Marshaller.
+5cb67817f7bfd9edad1159ffea4ab796c555ad9f,2,,XStream detects if it serializes itself (XSTR-286). Preparation for serialization of XStream itself (XSTR-50).
+d16c03ac2d3c74e1d52c580ac0b56bdc6776ebe8,3,,Implement the DocumentWriter for all DOM writer impls (XSTR-349). Introduce DocumentReader for DOm reader impls. Add hashCode and equals to Xpp3Dom.
+4574b194db9370f85487e9cda3fc57caa9c5151a,2,,Add unit tests for DocumentWriter impls (XSTR-349). Revert Xpp3Dom.
+b5f6ad9efc46866a4d3d1451f48fdf94254bd987,2,,Fix serialized DecimalFormatSymbols for JDK 6 in XmlFriendyTest (XSTR-370). Introduce JDK 6 support in JVM class.
+5bf371683deabf6170f20ca508189c04310a76ff,2,,"Better JSON test for sets, fixes invariant on JDK 6 (XSTR-370) and JDK 1.3."
+e1933b44cb4c07fc367b543c6e53469b6e03e627,2,,Fix XML header in StaxTests for JDK 6 (XSTR-370). Remove obsolete StaxWriterTest.
+a8e7a68af99cf91b59ff5f04d6b697ebcb35e194,2,,"Make JDK 6 buildable (XSTR-370), improve compatibility for different StaX implementations."
+e804238dbc4dd56472c35baa097a7bfee879602e,2,XSTR-404,Updating changes.html according to xstr-404 and related issue
+f7645ebabc9f3cad6924d007041fadfb860867ef,2,XSTR-280,Support omitField for SerializableConverter (XSTR-280). Support aliases attribute names for SerializableConverter.
+a70b09de41cb8c9c65edf5cca41f1a5b2efd154a,2,"XSTR-421, XSTR-426",Implement SingleValueConverter for CharacterConverter (XSTR-421). Handle characters not defined in unicode fixing bug XSTR-426.
+7ba79cf4b1d6a8a6fdf8ea559cdf7526a0dcc808,2,"XSTR-421, XSTR-426",Implement SingleValueConverter for CharacterConverter (XSTR-421). Handle characters not defined in unicode fixing bug XSTR-426.
+7ad3ad875faec852264b2e91fe949961fc140d34,4,XSTR-420,XPath expressions used in references are now also XML-friendly encoded to match the real XML path (XSTR-420). Added XmlFriendlyReader and XmlFriendlyWriter interfaces to access the functionality of the XmlFriendlyReplacer. Added compatibility test case for XStream 1.2.x. Factored out an abstract TreeMarshallingStrategy with an easy possibility to overload the creation of the contexts.
+034aeb6217551c8f724b8fcfb482978dc9340fcf,2,"XSTR-463, XSTR-464",Default Mapper chain can now be build as custom Mapper chain (XSTR-463). ClassLoader can be provided for initial phase of XStream (XSTR-464).
+da67a0b0f2fa2adc2c4df948e8f42e7f10719ce1,2,"XSTR-463, XSTR-464",Default Mapper chain can now be build as custom Mapper chain (XSTR-463). ClassLoader can be provided for initial phase of XStream (XSTR-464).
+d8c991917491ff02b15e98cb0b6bc2136c9859da,2,XSTR-487,Support default implementations for polymorphic enums (XSTR-487). Treat all enums as immutable types (XSTR-419).
+b8abad3d533f247198392f607d37d2221b9ba67d,2,,Support enums as attributes (XSTR-394 and XSTR-413).
+ea5b22e6c25cc1d8a95523201c5e93a5e4439447,2,,Support enums as attributes (XSTR-394 and XSTR-413).
+14e60695e8b6a2e51ba6cd914a0225128f139c33,2,XSTR-411,Escape JSON strings according RFC 4627 (XSTR-411). Add FAQ entry for limitations of JSON.
+38d3b8311417f67bdea3cfe0cc346a6b8b26930a,2,XSTR-411,Escape JSON strings according RFC 4627 (XSTR-411). Add FAQ entry for limitations of JSON.
+74df084732581db19b11d1a63bbceb6a765e53fa,2,XSTR-497,Fix the fix of XSTR-497. Fix Javadoc of XStream facade.
+1aa879a8ec77bb73e3143ac799e9b89803154406,2,XSTR-571,Fix serialization of synchronized RandomAccessList types (XSTR-571). Added new interface ReferencingMarshallingContext.
+f51ae8a2ec982f8d5365c29b95815982a39441e1,2,"XSTR-615, XSTR-580","Dynamic proxies cannot be referenced recursively (XSTR-615, XSTR-580)."
+fa0bc6cabd2594f1582e758f7bd3fbf37d81b002,2,,"XSTR-77: If objects contain native serialization style readResolve() method, it shall be used upon deserialization. This supports enum types and objects that need to look themselves up from factories. XSTR-83: A currency converter : no longer needed as readResolve() will do it automatically."
+de4ddfd4f10e605310ecd3ebbb0b580b83d8f687,2,,Two cool additions (with very little effort). XSTR-168: SerializableConverter now handles classes that use getFields()/putFields(). XSTR-169: Drop in replacement from ObjectInputStream/ObjectOutputStream. Use XStream.createObjectInputStream().
+879cd2df969d90ae4104c9c471c72303a5f2bad2,5,,XStream can marshal itself (XSTR-50). XStream can marshal itself into a XStream (XSTR-227). Use FastStack instead of LinkedList in Dom4JWriter. Prepare Dom4JWriter for DriverEndToEndTest with ObjectStreams. Fix StatefulWriter barfing wrongly on writing same attributes in different nesting levels.
+3654c7425639d2e0d74ea9773ebef7034a1d6e88,4,"XSTR-280, XSTR-241",Use BeanIntrospector for JavaBeanConverter (XSTR-415). Support alias and omitField in JavaBeanConverter (XSTR-280). Make BeanProvider settable and allow customization (XSTR-241). Support property name comparator for JavaBeans. Make JDK 1.3 compatible.
+a7164b8231bbfdd6d13d0548e299aa78f47eca41,2,XSTR-487,Support default implementations for polymorphic enums (XSTR-487). Treat all enums as immutable types (XSTR-419).
+87a2498ffc2f25f0b21590f0f827f5f508293593,2,,Possibility to omit system attributes (XSTR-531). Support null as alias for system attributes. Drop obsolete method systemAttributeForAlias.
+f68656502f9e60a33f5a08a71563efc14769b8c4,3,XSTR-423,Support of CGLIB enhanced proxies with multiple callbacks if the proxy uses a factory (XSTR-423). Fix bug with a deserialized proxy using never a factory. Update to CGLIB 2.2.
+f04270889e50550c32129cfe42333bcf62da771e,3,,"The XppDriver uses now the official XmlPullParser API to locate an available parser using the XmlPullParserFactory. This allows the usage of XPP technology with XStream in Android (XSTR-542). Additional explicit XPP drivers for the Xpp3 and kXML2 implementations. Additional explicit StAX drivers for Woodstox, BEA StAX and SJSXP of the JDK 6 implementations."
