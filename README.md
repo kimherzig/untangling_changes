@@ -34,9 +34,9 @@ The data sets are contained in the Git repository subdirectory ``obvious_blobs''
 
 ## Papers
 
-* [2011] K. Herzig and A. Zeller, “The Impact of Tangled Code Changes,” in Proceedings of the 10th working conference on mining software repositories, Piscataway, NJ, USA, 2013, pp. 121-130. 
-* [2012] K. Herzig, “Mining and Untangling Change Genealogies,” PhD Thesis, 2012. 
-* [2015] K. Herzig, S. Just, and A. Zeller, “The impact of tangled code changes on defect prediction models,” Empirical software engineering, pp. 1-34, 2015. 
+* [2012] K. Herzig, “Mining and Untangling Change Genealogies,” PhD Thesis, 2012. More info: http://wp.me/s2TI1Q-phd
+* [2013] K. Herzig and A. Zeller, “The Impact of Tangled Code Changes,” in Proceedings of the 10th working conference on mining software repositories, Piscataway, NJ, USA, 2013, pp. 121-130. More info: http://wp.me/p2TI1Q-fQ
+* [2015] K. Herzig, S. Just, and A. Zeller, “The impact of tangled code changes on defect prediction models,” Empirical software engineering, pp. 1-34, 2015. More info: http://wp.me/p2TI1Q-kS
 
 ## Contact
 
