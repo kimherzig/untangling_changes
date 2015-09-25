@@ -20,7 +20,7 @@ Please note that transactions are identified by GIT-hashes and not by SVN ids. W
 ## GIT repositories
 
 The git repository snapshots are too big to be included in this git repository. Instead, please use the following page to download the files: http://wp.me/p2TI1Q-lA. 
-Eachb http://wp.me/p2TI1Q-lAare git repository is compressed in a 7z archive file. 
+Each bare git repository is compressed in a 7z archive file. 
 
 ## Atomic fixes
 
