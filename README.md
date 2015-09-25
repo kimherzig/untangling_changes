@@ -19,7 +19,8 @@ Please note that transactions are identified by GIT-hashes and not by SVN ids. W
 
 ## GIT repositories
 
-Each repository download tar, xzip file. You can unzip it using 7zip. Each zip file contains a bare, clonable GIT repository. 
+The git repository snapshots are too big to be included in this git repository. Instead, please use the following page to download the files: http://www.kim-herzig.de/2015/09/25/public-data-sets-for-untangling-code-changes-moved/. 
+Each bare git repository is compressed in a 7z archive file. 
 
 ## Atomic fixes
 
