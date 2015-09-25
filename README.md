@@ -19,8 +19,8 @@ Please note that transactions are identified by GIT-hashes and not by SVN ids. W
 
 ## GIT repositories
 
-The git repository snapshots are too big to be included in this git repository. Instead, please use the following page to download the files: http://www.kim-herzig.de/2015/09/25/public-data-sets-for-untangling-code-changes-moved/. 
-Each bare git repository is compressed in a 7z archive file. 
+The git repository snapshots are too big to be included in this git repository. Instead, please use the following page to download the files: http://wp.me/p2TI1Q-lA. 
+Eachb http://wp.me/p2TI1Q-lAare git repository is compressed in a 7z archive file. 
 
 ## Atomic fixes
 
